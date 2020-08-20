@@ -1,5 +1,4 @@
-//EJERCICIO 1 -----------------------------------------------------------------------------
-console.log("\nEJERCICIO 1 -----------------------------------------------------------------------------\n");
+console.log("\nEJERCICIO 1\n");
 class Rombo{
     diagonalVertical:number;
     diagonalHorizontal:number;
@@ -19,8 +18,7 @@ class Rombo{
 let rombo1 = new Rombo(15,20); 
 console.log("El area calculada es: " + rombo1.Area());
 
-//EJERCICIO 2 -----------------------------------------------------------------------------
-console.log("\nEJERCICIO 2 -----------------------------------------------------------------------------\n");
+console.log("\nEJERCICIO 2\n");
 
 interface spiderman {
     nombre: string;
@@ -34,8 +32,7 @@ let superheroe:spiderman = {
 
 console.log(superheroe);
 
-//EJERCICIO 3 -----------------------------------------------------------------------------
-console.log("\nEJERCICIO 3 -----------------------------------------------------------------------------\n");
+console.log("\nEJERCICIO 3\n");
 
 class Empleado {
     nombre:string;
@@ -55,11 +52,10 @@ class Empleado {
     }
 }
 
-let empleado = new Empleado('Ricardo',300); 
+let empleado = new Empleado('Oscar',700); 
 console.log("El salario después de los descuentos es: " + empleado.DeducSalarial());
 
-//EJERCICIO 4 -----------------------------------------------------------------------------
-console.log("\nEJERCICIO 4 -----------------------------------------------------------------------------\n");
+console.log("\nEJERCICIO 4\n");
 
 class Calculadora{
     numero1:number;

@@ -1,5 +1,4 @@
-//EJERCICIO 1 -----------------------------------------------------------------------------
-console.log("\nEJERCICIO 1 -----------------------------------------------------------------------------\n");
+console.log("\nEJERCICIO 1\n");
 var Rombo = /** @class */ (function () {
     function Rombo(diagonalV, diagonalH) {
         this.diagonalVertical = diagonalV;
@@ -13,15 +12,13 @@ var Rombo = /** @class */ (function () {
 }());
 var rombo1 = new Rombo(15, 20);
 console.log("El area calculada es: " + rombo1.Area());
-//EJERCICIO 2 -----------------------------------------------------------------------------
-console.log("\nEJERCICIO 2 -----------------------------------------------------------------------------\n");
+console.log("\nEJERCICIO \n");
 var superheroe = {
     nombre: 'Peter Parker',
     poderes: ['Trepar', 'Fuerza', 'Agilidad', 'Telas de araña']
 };
 console.log(superheroe);
-//EJERCICIO 3 -----------------------------------------------------------------------------
-console.log("\nEJERCICIO 3 -----------------------------------------------------------------------------\n");
+console.log("\nEJERCICIO 3\n");
 var Empleado = /** @class */ (function () {
     function Empleado(_nombre, _salario) {
         this.nombre = _nombre;
@@ -34,10 +31,9 @@ var Empleado = /** @class */ (function () {
     };
     return Empleado;
 }());
-var empleado = new Empleado('Ricardo', 300);
+var empleado = new Empleado('Oscar', 700);
 console.log("El salario después de los descuentos es: " + empleado.DeducSalarial());
-//EJERCICIO 4 -----------------------------------------------------------------------------
-console.log("\nEJERCICIO 4 -----------------------------------------------------------------------------\n");
+console.log("\nEJERCICIO 4\n");
 var Calculadora = /** @class */ (function () {
     function Calculadora(num1, num2) {
         this.numero1 = num1;
